@@ -7,6 +7,7 @@ public class Ex1 {
 
 	public static void main(String[] args) {
 		Locale.setDefault(new Locale("en", "US"));
+		
 		double nota1, nota2, nota3, media;
 		Scanner leia = new Scanner(System.in);
 		System.out.println("Digite o valor da nota 1: ");

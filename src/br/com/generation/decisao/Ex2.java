@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 
 public class Ex2 {
 	public static void main(String[] args) {
-		Locale.setDefault(new Locale("en", "US"));cd
+		Locale.setDefault(new Locale("en", "US"));
 		int idade;
 		idade = Integer.parseInt(JOptionPane.showInputDialog("Qual é a sua idade? "));
 		if(idade >= 10 && idade < 14) {
@@ -20,6 +20,9 @@ public class Ex2 {
 		else if(idade >= 18 && idade < 25) {
 			JOptionPane.showMessageDialog(null, "O jogador deve se apresentar na categoria adulto");
 			}
+		else {
+			JOptionPane.showMessageDialog(null, "O jogador não tem categoria");
+		}
 		
 		}
 	}
